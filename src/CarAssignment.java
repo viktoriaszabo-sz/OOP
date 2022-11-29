@@ -48,13 +48,13 @@ class Car {
 		int ramount = amountOfFuel + amount;
 		System.out.println("Fuel on the tank after the refuel: " + ramount);
 	}
-	public Car () 
+	public Car () //default constructor
 	{
 		brand = "Fiat"; 
 		model = "500"; 
 		amountOfFuel = 50; 
 	}
-	public Car (String brand, String model, int amountOfFuel)
+	public Car (String brand, String model, int amountOfFuel) // parameterized constructor
 	{
 		this.brand = brand; 
 		this.model = model; 
