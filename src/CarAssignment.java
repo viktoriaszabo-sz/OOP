@@ -1,6 +1,5 @@
 
 public class CarAssignment {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
@@ -16,7 +15,6 @@ public class CarAssignment {
 		car2.printData();
 	}
 }
-
 class Car {
 	
 	public String brand = "Fiat"; 
