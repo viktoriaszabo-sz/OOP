@@ -3,7 +3,7 @@ public class CarAssignment {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Car car1 = new Car(); 
+		Car car1 = new Car(); //creating an object with a default constructor
 		
 		car1.printData();
 		car1.accelerate(); 
@@ -11,7 +11,7 @@ public class CarAssignment {
 		car1.printData();
 		car1.refuel(10);
 		
-		Car car2 = new Car("Mercedes", "100", 80); //this is the parameterized constructor
+		Car car2 = new Car("Mercedes", "100", 80); //creating an object with a parameterised constructor
 		car2.printData();
 	}
 }
